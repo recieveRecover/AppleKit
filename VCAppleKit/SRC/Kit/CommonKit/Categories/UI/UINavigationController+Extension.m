@@ -7,14 +7,17 @@
 //
 
 #import "UINavigationController+Extension.h"
-#import "UIStoryboard+IDPExtensions.h"
 
 @implementation UINavigationController (Extension)
 
-- (void)pushWithStoryboardViewControllerClass:(Class)class animated:(BOOL)animated {
+- (void)pushWithStoryboardViewControllerClass:(Class)theClass animated:(BOOL)animated {
     UIStoryboard *storyboard = [[self.viewControllers lastObject] storyboard];
-    UIViewController *controller = [storyboard instantiateViewControllerWithClass:class];
+    UIViewController *controller = [storyboard instantiateViewControllerWithIdentifier:NSStringFromClass(theClass)];
     [self pushViewController:controller animated:animated];
+}
+
+- (CGFloat)navigationBarHeight {
+    return CGRectGetHeight(self.navigationBar.frame);
 }
 
 @end

@@ -14,11 +14,10 @@
 #define STRING_WITH_SELECTOR(selectorName) \
 NSStringFromSelector(@selector(selectorName))
 
-#define LOCALIZED(key) NSLocalizedString(key, nil)
-
 
 @interface NSString (Transform)
 
 + (NSString *)shortStringFromNumber:(int)number;
+- (NSString *)localized;
 
 @end

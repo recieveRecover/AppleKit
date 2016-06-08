@@ -141,6 +141,9 @@
 		215C8A8F1D058370008A07F4 /* NSString+DBHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DBHandle.m"; sourceTree = "<group>"; };
 		215C8A901D058370008A07F4 /* UITextView+Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Handler.h"; sourceTree = "<group>"; };
 		215C8A911D058370008A07F4 /* UITextView+Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Handler.m"; sourceTree = "<group>"; };
+		219E1D501D081CA9001C0CEA /* IDPBlockMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPBlockMacros.h; sourceTree = "<group>"; };
+		219E1D511D081CA9001C0CEA /* IDPControllerViewMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPControllerViewMacros.h; sourceTree = "<group>"; };
+		219E1D521D081CA9001C0CEA /* IDPObservePropertyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPObservePropertyMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +255,9 @@
 		215C8A501D05836F008A07F4 /* CommonKit */ = {
 			isa = PBXGroup;
 			children = (
+				219E1D501D081CA9001C0CEA /* IDPBlockMacros.h */,
+				219E1D511D081CA9001C0CEA /* IDPControllerViewMacros.h */,
+				219E1D521D081CA9001C0CEA /* IDPObservePropertyMacros.h */,
 				215C8A511D05836F008A07F4 /* Categories */,
 			);
 			path = CommonKit;
@@ -748,6 +754,7 @@
 				215C8A471D058332008A07F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		215C8A481D058332008A07F4 /* Build configuration list for PBXNativeTarget "VCAppleKitTests" */ = {
 			isa = XCConfigurationList;
@@ -756,6 +763,7 @@
 				215C8A4A1D058332008A07F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		215C8A4B1D058332008A07F4 /* Build configuration list for PBXNativeTarget "VCAppleKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -764,6 +772,7 @@
 				215C8A4D1D058332008A07F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

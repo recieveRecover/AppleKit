@@ -23,4 +23,8 @@
     return string;
 }
 
+- (NSString *)localized {
+    return NSLocalizedString(self, nil);
+}
+
 @end

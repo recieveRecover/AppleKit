@@ -11,5 +11,6 @@
 @interface UIApplication (Extension)
 
 + (UIViewController *)rootViewController;
++ (CGFloat)statusBarHeight;
 
 @end

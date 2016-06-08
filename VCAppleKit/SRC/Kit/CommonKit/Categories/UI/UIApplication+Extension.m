@@ -14,4 +14,8 @@
     return [[[[UIApplication sharedApplication] delegate] window] rootViewController];
 }
 
++ (CGFloat)statusBarHeight {
+    return [UIApplication sharedApplication].statusBarFrame.size.height;
+}
+
 @end

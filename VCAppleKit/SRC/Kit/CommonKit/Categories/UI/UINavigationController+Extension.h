@@ -11,5 +11,6 @@
 @interface UINavigationController (Extension)
 
 - (void)pushWithStoryboardViewControllerClass:(Class)class animated:(BOOL)animated;
+- (CGFloat)navigationBarHeight;
 
 @end
